@@ -18,6 +18,7 @@
 		847FC7C91915F3C2008FA44A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847FC7C81915F3C2008FA44A /* Default-568h@2x.png */; };
 		847FC7CC1915F3C2008FA44A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847FC7CA1915F3C2008FA44A /* MainStoryboard.storyboard */; };
 		847FC7CF1915F3C2008FA44A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FC7CE1915F3C2008FA44A /* ViewController.m */; };
+		84A9D72319160E77006BDEEC /* MovieDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D72219160E77006BDEEC /* MovieDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		847FC7CB1915F3C2008FA44A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		847FC7CD1915F3C2008FA44A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		847FC7CE1915F3C2008FA44A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84A9D72119160E77006BDEEC /* MovieDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDataModel.h; sourceTree = "<group>"; };
+		84A9D72219160E77006BDEEC /* MovieDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				847FC7CD1915F3C2008FA44A /* ViewController.h */,
 				847FC7CE1915F3C2008FA44A /* ViewController.m */,
 				847FC7B91915F3C2008FA44A /* Supporting Files */,
+				84A9D72119160E77006BDEEC /* MovieDataModel.h */,
+				84A9D72219160E77006BDEEC /* MovieDataModel.m */,
 			);
 			path = adv2014;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				847FC7BF1915F3C2008FA44A /* main.m in Sources */,
 				847FC7C31915F3C2008FA44A /* AppDelegate.m in Sources */,
 				847FC7CF1915F3C2008FA44A /* ViewController.m in Sources */,
+				84A9D72319160E77006BDEEC /* MovieDataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +304,7 @@
 				847FC7D41915F3C2008FA44A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
