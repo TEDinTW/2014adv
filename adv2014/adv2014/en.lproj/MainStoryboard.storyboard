@@ -99,6 +99,17 @@
             <point key="canvasLocation" x="-284" y="122"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="TEDVC1" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/TEDVC1.h"/>
+            <relationships>
+                <relationship kind="action" name="pushBtn:" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
