@@ -44,6 +44,7 @@
   
     [self presentMoviePlayerViewControllerAnimated:player];
     
+    NSLog(@"hihi");
 //    player present
     
 }
