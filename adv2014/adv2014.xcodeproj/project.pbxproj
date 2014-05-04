@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841F3C7A191618340039D1B9 /* ACVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F3C79191618340039D1B9 /* ACVC.m */; };
 		8444FF3E191615090025B1CD /* TEDVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8444FF3D191615090025B1CD /* TEDVC1.m */; };
 		8444FF40191618AC0025B1CD /* aa.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8444FF3F191618AC0025B1CD /* aa.mov */; };
 		8444FF42191618D10025B1CD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8444FF41191618D10025B1CD /* MediaPlayer.framework */; };
@@ -25,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		841F3C78191618340039D1B9 /* ACVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACVC.h; sourceTree = "<group>"; };
+		841F3C79191618340039D1B9 /* ACVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACVC.m; sourceTree = "<group>"; };
 		8444FF3C191615090025B1CD /* TEDVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEDVC1.h; sourceTree = "<group>"; };
 		8444FF3D191615090025B1CD /* TEDVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDVC1.m; sourceTree = "<group>"; };
 		8444FF3F191618AC0025B1CD /* aa.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = aa.mov; sourceTree = "<group>"; };
@@ -64,6 +67,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841F3C77191617D30039D1B9 /* AC */ = {
+			isa = PBXGroup;
+			children = (
+				841F3C78191618340039D1B9 /* ACVC.h */,
+				841F3C79191618340039D1B9 /* ACVC.m */,
+			);
+			name = AC;
+			sourceTree = "<group>";
+		};
 		8444FF3B191614ED0025B1CD /* TED */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +117,7 @@
 		847FC7B81915F3C2008FA44A /* adv2014 */ = {
 			isa = PBXGroup;
 			children = (
+				841F3C77191617D30039D1B9 /* AC */,
 				8444FF3B191614ED0025B1CD /* TED */,
 				847FC7C11915F3C2008FA44A /* AppDelegate.h */,
 				847FC7C21915F3C2008FA44A /* AppDelegate.m */,
@@ -204,6 +217,7 @@
 				847FC7CF1915F3C2008FA44A /* ViewController.m in Sources */,
 				84A9D72319160E77006BDEEC /* MovieDataModel.m in Sources */,
 				8444FF3E191615090025B1CD /* TEDVC1.m in Sources */,
+				841F3C7A191618340039D1B9 /* ACVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
