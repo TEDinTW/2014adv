@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8444FF3E191615090025B1CD /* TEDVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8444FF3D191615090025B1CD /* TEDVC1.m */; };
+		8444FF40191618AC0025B1CD /* aa.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8444FF3F191618AC0025B1CD /* aa.mov */; };
+		8444FF42191618D10025B1CD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8444FF41191618D10025B1CD /* MediaPlayer.framework */; };
 		847FC7B31915F3C2008FA44A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B21915F3C2008FA44A /* UIKit.framework */; };
 		847FC7B51915F3C2008FA44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B41915F3C2008FA44A /* Foundation.framework */; };
 		847FC7B71915F3C2008FA44A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B61915F3C2008FA44A /* CoreGraphics.framework */; };
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		8444FF3C191615090025B1CD /* TEDVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEDVC1.h; sourceTree = "<group>"; };
 		8444FF3D191615090025B1CD /* TEDVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDVC1.m; sourceTree = "<group>"; };
+		8444FF3F191618AC0025B1CD /* aa.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = aa.mov; sourceTree = "<group>"; };
+		8444FF41191618D10025B1CD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		847FC7AF1915F3C2008FA44A /* adv2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adv2014.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847FC7B21915F3C2008FA44A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		847FC7B41915F3C2008FA44A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8444FF42191618D10025B1CD /* MediaPlayer.framework in Frameworks */,
 				847FC7B31915F3C2008FA44A /* UIKit.framework in Frameworks */,
 				847FC7B51915F3C2008FA44A /* Foundation.framework in Frameworks */,
 				847FC7B71915F3C2008FA44A /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +67,7 @@
 		8444FF3B191614ED0025B1CD /* TED */ = {
 			isa = PBXGroup;
 			children = (
+				8444FF3F191618AC0025B1CD /* aa.mov */,
 				8444FF3C191615090025B1CD /* TEDVC1.h */,
 				8444FF3D191615090025B1CD /* TEDVC1.m */,
 			);
@@ -71,6 +77,7 @@
 		847FC7A61915F3C2008FA44A = {
 			isa = PBXGroup;
 			children = (
+				8444FF41191618D10025B1CD /* MediaPlayer.framework */,
 				847FC7B81915F3C2008FA44A /* adv2014 */,
 				847FC7B11915F3C2008FA44A /* Frameworks */,
 				847FC7B01915F3C2008FA44A /* Products */,
@@ -181,6 +188,7 @@
 				847FC7C71915F3C2008FA44A /* Default@2x.png in Resources */,
 				847FC7C91915F3C2008FA44A /* Default-568h@2x.png in Resources */,
 				847FC7CC1915F3C2008FA44A /* MainStoryboard.storyboard in Resources */,
+				8444FF40191618AC0025B1CD /* aa.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

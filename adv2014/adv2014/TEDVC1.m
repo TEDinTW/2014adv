@@ -7,7 +7,7 @@
 //
 
 #import "TEDVC1.h"
-
+#import <MediaPlayer/MediaPlayer.h>
 @interface TEDVC1 ()
 
 @end
@@ -35,4 +35,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)pushBtn:(UIButton *)sender {
+    NSString *filePath=[[NSBundle mainBundle]pathForResource:@"aa" ofType:@"mov"];
+    
+    NSURL *fileURL=[NSURL fileURLWithPath:filePath];
+    
+    MPMoviePlayerViewController *player=[[MPMoviePlayerViewController alloc]initWithContentURL:fileURL];
+  
+    [self presentMoviePlayerViewControllerAnimated:player];
+    
+//    player present
+    
+}
 @end

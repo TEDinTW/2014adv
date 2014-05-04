@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TEDVC1 : UIViewController
+- (IBAction)pushBtn:(UIButton *)sender;
 
 @end
