@@ -11,18 +11,16 @@
 		8444FF3E191615090025B1CD /* TEDVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8444FF3D191615090025B1CD /* TEDVC1.m */; };
 		8444FF40191618AC0025B1CD /* aa.mov in Resources */ = {isa = PBXBuildFile; fileRef = 8444FF3F191618AC0025B1CD /* aa.mov */; };
 		8444FF42191618D10025B1CD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8444FF41191618D10025B1CD /* MediaPlayer.framework */; };
+		8444FF4419161D8B0025B1CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8444FF4319161D8B0025B1CD /* ViewController.m */; };
 		847FC7B31915F3C2008FA44A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B21915F3C2008FA44A /* UIKit.framework */; };
 		847FC7B51915F3C2008FA44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B41915F3C2008FA44A /* Foundation.framework */; };
 		847FC7B71915F3C2008FA44A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B61915F3C2008FA44A /* CoreGraphics.framework */; };
 		847FC7BD1915F3C2008FA44A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 847FC7BB1915F3C2008FA44A /* InfoPlist.strings */; };
 		847FC7BF1915F3C2008FA44A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FC7BE1915F3C2008FA44A /* main.m */; };
-		847FC7C31915F3C2008FA44A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FC7C21915F3C2008FA44A /* AppDelegate.m */; };
 		847FC7C51915F3C2008FA44A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 847FC7C41915F3C2008FA44A /* Default.png */; };
 		847FC7C71915F3C2008FA44A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847FC7C61915F3C2008FA44A /* Default@2x.png */; };
 		847FC7C91915F3C2008FA44A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 847FC7C81915F3C2008FA44A /* Default-568h@2x.png */; };
 		847FC7CC1915F3C2008FA44A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847FC7CA1915F3C2008FA44A /* MainStoryboard.storyboard */; };
-		847FC7CF1915F3C2008FA44A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847FC7CE1915F3C2008FA44A /* ViewController.m */; };
-		84A9D72319160E77006BDEEC /* MovieDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A9D72219160E77006BDEEC /* MovieDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +30,12 @@
 		8444FF3D191615090025B1CD /* TEDVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDVC1.m; sourceTree = "<group>"; };
 		8444FF3F191618AC0025B1CD /* aa.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = aa.mov; sourceTree = "<group>"; };
 		8444FF41191618D10025B1CD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		8444FF4319161D8B0025B1CD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = SOURCE_ROOT; };
+		8444FF4519161D9A0025B1CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = SOURCE_ROOT; };
+		8444FF4619161DA50025B1CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		8444FF4719161DA50025B1CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		8444FF4819161DB20025B1CD /* MovieDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieDataModel.h; sourceTree = SOURCE_ROOT; };
+		8444FF4919161DB20025B1CD /* MovieDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieDataModel.m; sourceTree = SOURCE_ROOT; };
 		847FC7AF1915F3C2008FA44A /* adv2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adv2014.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847FC7B21915F3C2008FA44A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		847FC7B41915F3C2008FA44A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,16 +44,10 @@
 		847FC7BC1915F3C2008FA44A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		847FC7BE1915F3C2008FA44A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		847FC7C01915F3C2008FA44A /* adv2014-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "adv2014-Prefix.pch"; sourceTree = "<group>"; };
-		847FC7C11915F3C2008FA44A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		847FC7C21915F3C2008FA44A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		847FC7C41915F3C2008FA44A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		847FC7C61915F3C2008FA44A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		847FC7C81915F3C2008FA44A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		847FC7CB1915F3C2008FA44A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		847FC7CD1915F3C2008FA44A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		847FC7CE1915F3C2008FA44A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84A9D72119160E77006BDEEC /* MovieDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDataModel.h; sourceTree = "<group>"; };
-		84A9D72219160E77006BDEEC /* MovieDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDataModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,16 +115,16 @@
 		847FC7B81915F3C2008FA44A /* adv2014 */ = {
 			isa = PBXGroup;
 			children = (
+				8444FF4819161DB20025B1CD /* MovieDataModel.h */,
+				8444FF4919161DB20025B1CD /* MovieDataModel.m */,
+				8444FF4619161DA50025B1CD /* AppDelegate.h */,
+				8444FF4719161DA50025B1CD /* AppDelegate.m */,
+				8444FF4519161D9A0025B1CD /* ViewController.h */,
+				8444FF4319161D8B0025B1CD /* ViewController.m */,
 				841F3C77191617D30039D1B9 /* AC */,
 				8444FF3B191614ED0025B1CD /* TED */,
-				847FC7C11915F3C2008FA44A /* AppDelegate.h */,
-				847FC7C21915F3C2008FA44A /* AppDelegate.m */,
 				847FC7CA1915F3C2008FA44A /* MainStoryboard.storyboard */,
-				847FC7CD1915F3C2008FA44A /* ViewController.h */,
-				847FC7CE1915F3C2008FA44A /* ViewController.m */,
 				847FC7B91915F3C2008FA44A /* Supporting Files */,
-				84A9D72119160E77006BDEEC /* MovieDataModel.h */,
-				84A9D72219160E77006BDEEC /* MovieDataModel.m */,
 			);
 			path = adv2014;
 			sourceTree = "<group>";
@@ -213,11 +211,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				847FC7BF1915F3C2008FA44A /* main.m in Sources */,
-				847FC7C31915F3C2008FA44A /* AppDelegate.m in Sources */,
-				847FC7CF1915F3C2008FA44A /* ViewController.m in Sources */,
-				84A9D72319160E77006BDEEC /* MovieDataModel.m in Sources */,
 				8444FF3E191615090025B1CD /* TEDVC1.m in Sources */,
 				841F3C7A191618340039D1B9 /* ACVC.m in Sources */,
+				8444FF4419161D8B0025B1CD /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
