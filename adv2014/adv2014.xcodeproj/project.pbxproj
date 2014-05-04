@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8444FF3E191615090025B1CD /* TEDVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 8444FF3D191615090025B1CD /* TEDVC1.m */; };
 		847FC7B31915F3C2008FA44A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B21915F3C2008FA44A /* UIKit.framework */; };
 		847FC7B51915F3C2008FA44A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B41915F3C2008FA44A /* Foundation.framework */; };
 		847FC7B71915F3C2008FA44A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847FC7B61915F3C2008FA44A /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8444FF3C191615090025B1CD /* TEDVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEDVC1.h; sourceTree = "<group>"; };
+		8444FF3D191615090025B1CD /* TEDVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEDVC1.m; sourceTree = "<group>"; };
 		847FC7AF1915F3C2008FA44A /* adv2014.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adv2014.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847FC7B21915F3C2008FA44A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		847FC7B41915F3C2008FA44A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8444FF3B191614ED0025B1CD /* TED */ = {
+			isa = PBXGroup;
+			children = (
+				8444FF3C191615090025B1CD /* TEDVC1.h */,
+				8444FF3D191615090025B1CD /* TEDVC1.m */,
+			);
+			name = TED;
+			sourceTree = "<group>";
+		};
 		847FC7A61915F3C2008FA44A = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +98,7 @@
 		847FC7B81915F3C2008FA44A /* adv2014 */ = {
 			isa = PBXGroup;
 			children = (
+				8444FF3B191614ED0025B1CD /* TED */,
 				847FC7C11915F3C2008FA44A /* AppDelegate.h */,
 				847FC7C21915F3C2008FA44A /* AppDelegate.m */,
 				847FC7CA1915F3C2008FA44A /* MainStoryboard.storyboard */,
@@ -182,6 +195,7 @@
 				847FC7C31915F3C2008FA44A /* AppDelegate.m in Sources */,
 				847FC7CF1915F3C2008FA44A /* ViewController.m in Sources */,
 				84A9D72319160E77006BDEEC /* MovieDataModel.m in Sources */,
+				8444FF3E191615090025B1CD /* TEDVC1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
