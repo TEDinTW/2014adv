@@ -34,10 +34,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Kzo-to-97S" firstAttribute="top" secondItem="3" secondAttribute="top" constant="15" id="4al-93-6S4"/>
+                            <constraint firstItem="Kzo-to-97S" firstAttribute="top" secondItem="3" secondAttribute="top" constant="46" id="30X-a3-7Zw"/>
                             <constraint firstAttribute="bottom" secondItem="N2u-pi-ghr" secondAttribute="bottom" constant="31" id="SMM-n3-wRd"/>
                             <constraint firstAttribute="trailing" secondItem="N2u-pi-ghr" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="SSY-Lk-FAv"/>
-                            <constraint firstItem="Kzo-to-97S" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="44" id="cTF-aA-aDr"/>
+                            <constraint firstItem="Kzo-to-97S" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="35" id="aNm-xM-cF6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nnq-ni-Kp4"/>
@@ -62,11 +62,6 @@
             <point key="canvasLocation" x="-284" y="122"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
